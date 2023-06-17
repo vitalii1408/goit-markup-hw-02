@@ -1,0 +1,130 @@
+/**
+    |============================
+    | Header styles
+    |============================
+  */
+.header {}
+.header-nav {}
+.header-logo-link {
+}
+.header-nav-st {}
+.header-nav-por {}
+.header-nav-con {}
+.linc {}
+.linc-com {
+}
+
+.linc-tel {}
+
+/**
+    |============================
+    | section-1 styles
+    |============================
+  */
+.sec1-title {}
+
+.sec1-button {}
+.sec1-button:hover,
+.sec1-button:focus
+{color:red;}
+
+/**
+    |============================
+    | section-2 styles
+    |============================
+  */
+.sec2 {
+}
+
+.sec2-title {
+}
+
+.sex2-wd {
+}
+
+.sex2-1 {
+}
+
+.sec2-img1 {
+}
+
+.sex2-2 {
+}
+
+.sec2-img2 {
+}
+
+.sex2-3 {
+}
+
+.sec2-img3 {
+}
+/**
+    |============================
+    | section-3 styles
+    |============================
+  */
+
+.sec3 {
+}
+
+.sec3-qt {
+}
+
+.sec3-avt {
+}
+
+.sec3-1 {
+}
+
+.seg3-mg-img {
+}
+
+.sec3-mg {
+}
+
+.sec3-txt {}
+
+
+.sec3-2 {
+}
+
+.sec3-img-fd {
+}
+
+.sec3-fd {
+}
+
+.sex3-txt {
+}
+
+.sex3-3 {
+}
+
+.sex3-img-cg {
+}
+
+.sex3-cg {
+}
+
+.sex3-4 {
+}
+
+.sex3-img-dw {
+}
+
+.sex3-dw {
+}
+/**
+    |============================
+    | footer section styles
+    |============================
+  */
+.footer {
+}
+
+.Footer-logo {
+}
+
+.footer-end {
+}
