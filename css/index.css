@@ -1,41 +1,57 @@
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.body {
+  font-family: "Roboto", sans-serif;
 }
+/* Reset */
+.list,
+ul,
+ol {
+  list-style: none;
+}
+
 /**
     |============================
     | Header styles
     |============================
   */
-.header {}
-.header-nav {}
+.header {
+}
+.header-nav {
+}
 .header-logo-link {
 }
-.header-nav-st {}
-.header-nav-vs
- {
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4D5AE5;;
- }
-.header-nav-por {}
-.header-nav-con {}
-.linc {}
+.header-nav-st {
+}
+.header-nav-vs {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-nav-por {
+}
+.header-nav-con {
+}
+.linc {
+}
 .linc-com {
 }
 
-.linc-tel {}
+.linc-tel {
+}
 
 /**
     |============================
     | section-1 styles
     |============================
   */
-.sec1-title {}
+.sec1-title {
+}
 
-.sec1-button {}
+.sec1-button {
+}
 .sec1-button:hover,
-.sec1-button:focus
-{color:red;}
+.sec1-button:focus {
+  color: red;
+}
 
 /**
     |============================
@@ -92,8 +108,8 @@ body {
 .sec3-mg {
 }
 
-.sec3-txt {}
-
+.sec3-txt {
+}
 
 .sec3-2 {
 }
