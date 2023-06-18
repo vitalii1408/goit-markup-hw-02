@@ -1,16 +1,5 @@
 .page {
   font-family: "Roboto", sans-serif;
-}
-.list,
-ul,
-ol {
-  list-style: none;
-}
-.link,
-a {
-  text-decoration: none;
-}
- {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -18,15 +7,15 @@ a {
   line-height: 1.4;
   color: #434455;
 }
+.list,
+ul,
+ol {
+  list-style: none;
+}  
 .header {
 }
 
-.header-nav:hover {
-  color: #ffffff;
-}
-.header-nav:focus {
-  color: #ffffff;
-}
+.header-nav:hover {}
 
 .header-logo-link {
 }
@@ -57,7 +46,8 @@ a {
   line-height: 1.5;
   color: #434455;
 }
-
+.linc-com:hover{color:aquamarine}
+.linc-com:focus{color:bisque}
 .linc-tel {
   font-family: "Roboto";
   font-style: normal;
@@ -66,6 +56,15 @@ a {
   line-height: 1.5;
   color: #434455;
 }
+.linc-tel:hover {
+  color: aquamarine
+}
+.linc-tel:focus{
+  color: bisque
+}
+
+  
+
 
 .main {
 }
@@ -84,7 +83,13 @@ a {
 .sec-title {
 }
 
-.sec-button {
+.sec-button:hover
+ {
+  color:aquamarine
+}
+.sec-button:focus
+{
+  color: blueviolet;
 }
 
 .sec-es-wd {
