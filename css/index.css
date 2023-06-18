@@ -1,8 +1,5 @@
 .page {
   font-family: "Roboto", sans-serif;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   color: #434455;
@@ -11,70 +8,69 @@
 ul,
 ol {
   list-style: none;
-}  
+}
+.linc,
+a {
+  text-decoration: none;
+}
 .header {
 }
 
-.header-nav:hover {}
+.header-nav:hover {
+}
 
 .header-logo-link {
 }
 .header-ul {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
 }
 .header-ul {
 }
-.header-nav-st {
+.header-s:hover,
+:focus {
+  color: #404bbf;
+}
+.header-p:hover,
+:focus {
+  color: #404bbf;
+}
+.header-c:hover,
+:focus {
+  color: #404bbf;
 }
 .header-nav-por {
 }
 .header-nav-con {
 }
-.linc {
-}
-
 .linc-com {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
-.linc-com:hover{color:aquamarine}
-.linc-com:focus{color:bisque}
+.linc-com:hover,
+:focus {
+  color: #404bbf;
+}
+
+.linc-tel:hover,
+:focus {
+  color: #404bbf;
+}
 .linc-tel {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
-.linc-tel:hover {
-  color: aquamarine
-}
-.linc-tel:focus{
-  color: bisque
-}
-
-  
-
-
-.main {
-}
-
 .sec-es {
 }
 
 .sec-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1, 07;
@@ -83,55 +79,105 @@ ol {
 .sec-title {
 }
 
-.sec-button:hover
- {
-  color:aquamarine
+.sec-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
 }
-.sec-button:focus
-{
-  color: blueviolet;
+.sec-button {
+  width: 169px;
+  height: 56px;
+  left: 20px;
+  top: 20px;
+  background: #4d5ae5;
 }
-
+.sec-button:hover,
+:focus {
+  width: 169px;
+  height: 56px;
+  left: 20px;
+  top: 88px;
+  background: #404bbf;
+}
+.sec-button {
+  cursor: pointer;
+}
+.main {
+}
+.cpdt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.qbrd {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
 .sec-es-wd {
 }
-
 .sec-es-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
 }
 
 .sec-wd-img {
 }
-
 .sec-ot {
 }
-
 .sec-ot-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
 }
 
 .sec-ot-img {
 }
 
-.sec3-txt {
+.mfmd {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
-
-.sec3-2 {
-}
-
-.sex3-txt {
-}
-
-.sex3-4 {
-}
-
-.sex3-img-dw {
+.mfmd-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .footer {
 }
 
-.Footer-logo {
+.footer-logo {
 }
 
 .footer-end {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
-
-  
