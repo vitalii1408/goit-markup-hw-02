@@ -16,10 +16,16 @@ a {
 .header {
 }
 
-.header-nav:hover {
+.header-nav {
 }
 
 .header-logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
 }
 .header-ul {
   font-family: "Roboto";
@@ -27,6 +33,24 @@ a {
   line-height: 1.5;
   color: #2e2f42;
 }
+
+.blok:hover,
+:focus {
+  color: #404bbf;
+}
+.blok {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+.header:hover,
+:focus {
+  color: #404bbf;
+}
+
 .header-ul {
 }
 .header-s:hover,
@@ -181,3 +205,19 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
 }
+.footer-logo{
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
+}
+.footer{
+  Width:1440px
+ 
+}
+.footer{
+  color:#2E2F42
+}
+
