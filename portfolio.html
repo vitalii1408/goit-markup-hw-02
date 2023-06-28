@@ -9,61 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>WEB STUDIO</title>
   </head>
   <body>
     <!--Header section-->
     <header>
-      <nav>
-        <ul>
+      <nav >
+        <ul class="link list">
           <li>
-            <a href="./index.html">WebStudio</a>
+            <a class="header-logo-link link" href="./index.html"
+            ><span class="blok">Web</span>Studio</a
+          >
           </li>
           <li>
-            <a href="./index.html">Studio</a>
+            <a class="header-s link" href="">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a class="header-p link" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="header-c link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="linc-com link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="linc-tel link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
     <!--portfolio sectuon-->
-    <section class="sec-but-p">
-      <ul>
-        <li>
-          <button type="button">All</button>
-        </li>
-        <li>
-          <button type="button">App</button>
-        </li>
-        <li>
-          <button type="button">Design</button>
-        </li>
-        <li>
-          <button type="button">Marketing</button>
-        </li>
-      </ul>
-    </section>
     <section>
-      <ul>
+      <ul class="btn list">
+        <li>
+          <button class="btn-all" type="button">All</button>
+        </li>
+        <li>
+          <button class="btn-app"  type="button">App</button>
+        </li>
+        <li>
+          <button class="btn-desing" type="button">Design</button>
+        </li>
+        <li>
+          <button class="btn-marketing" type="button">Marketing</button>
+        </li>
+      </ul >
+      <ul class="list" >
         <li>
           <img
             src="./images/portfolio/img-8.jpg"
@@ -71,8 +74,8 @@
             width="360"
             height="300"
           />
-          <h3>Banking App Interface Concept</h3>
-          <p>App</p>
+          <h3 class="com">Banking App Interface Concept</h3>
+          <p class="tec">App</p>
         </li>
         <li>
           <img
@@ -81,8 +84,8 @@
             width="360"
             height="300"
           />
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
+          <h3 class="com">Cashless Payment</h3>
+          <p class="tec">Marketing</p>
         </li>
         <li>
           <img
@@ -91,8 +94,8 @@
             width="360"
             height="300"
           />
-          <h3>Meditation App</h3>
-          <p>App</p>
+          <h3 class="com">Meditation App</h3>
+          <p class="tec">App</p>
         </li>
         <li>
           <img
@@ -101,8 +104,8 @@
             width="360"
             height="300"
           />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
+          <h3 class="com">Taxi Service</h3>
+          <p class="tec">Marketing</p>
         </li>
         <li>
           <img
@@ -111,8 +114,8 @@
             width="360"
             height="300"
           />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
+          <h3 class="com">Screen Illustrations</h3>
+          <p class="tec">Design</p>
         </li>
         <li>
           <img
@@ -121,8 +124,8 @@
             width="360"
             height="300"
           />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
+          <h3 class="com">Online Courses</h3>
+          <p class="tec">Marketing</p>
         </li>
         <li>
           <img
@@ -131,8 +134,8 @@
             width="360"
             height="300"
           />
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
+          <h3 class="com">Instagram Stories Concept</h3>
+          <p class="tec">Design</p>
         </li>
         <li>
           <img
@@ -141,8 +144,8 @@
             width="360"
             height="300"
           />
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
+          <h3 class="com">Organic Food</h3>
+          <p class="tec">Web Site</p>
         </li>
         <li>
           <img
@@ -151,15 +154,17 @@
             width="360"
             height="300"
           />
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
+          <h3 class="com">Fresh Coffee</h3>
+          <p class="tec">Web Site</p>
         </li>
       </ul>
     </section>
     <!--footer section-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="footer-logo link" href="./index.html"
+        ><span class="blok">Web</span>Studio</a
+      >
+      <p class="footer-end">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

@@ -208,3 +208,94 @@ line-height: 24px;
   letter-spacing: 0.32px;
 }
 
+/**portfolio sectuon*/
+
+.btn {
+}
+.btn-all {  color: #4D5AE5;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+.btn-all{
+  background: #F4F4FD}
+.btn-all:hover{
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-all:focus{
+  color: #FFF;
+  background:#404BBF;
+}
+
+.btn-app {  color: #4D5AE5;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+.btn-app {
+background: #F4F4FD;
+}
+.btn-app:hover  {
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-app:focus  {
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-desing {  color: #4D5AE5;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+.btn-desing {
+background: #F4F4FD;
+}
+.btn-desing:hover {
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-desing:focus {
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-marketing {  color: #4D5AE5;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+.btn-marketing {
+background: #F4F4FD;
+}
+.btn-marketing:hover {
+  color: #FFF;
+  background:#404BBF;
+}
+.btn-marketing:focus {
+  color: #FFF;
+  background:#404BBF;
+}
+.com {
+  color: #2E2F42;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.4px;
+}
+.tec {
+  color: #434455;
+font-size: 16px;
+font-family: Roboto;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
