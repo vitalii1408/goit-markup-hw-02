@@ -1,5 +1,6 @@
 body {
   font-family: "roboto";
+  color: ;
 }
 
 .link {
@@ -220,6 +221,9 @@ line-height: 1.5;
 letter-spacing: 0.64px;
 }
 .btn-all{
+  cursor: pointer;
+}
+.btn-all{
   background: #F4F4FD}
 .btn-all:hover{
   color: #FFF;
@@ -236,6 +240,9 @@ font-family: Roboto;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
+}
+.btn-app{
+  cursor: pointer;
 }
 .btn-app {
 background: #F4F4FD;
@@ -255,6 +262,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 }
+.btn-desing{
+  cursor: pointer;
+}
 .btn-desing {
 background: #F4F4FD;
 }
@@ -272,6 +282,9 @@ font-family: Roboto;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
+}
+.btn-marketing{
+  cursor: pointer;
 }
 .btn-marketing {
 background: #F4F4FD;
