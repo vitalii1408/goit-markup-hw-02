@@ -1,7 +1,9 @@
 body {
-  font-family: "roboto";
+  font-family: "roboto" sans-serif;
   color:#2e2f42;
+  background-color:#FFF; ;
 }
+
 
 .link {
   text-decoration: none;
