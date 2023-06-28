@@ -1,6 +1,9 @@
+:root{
+  --accent-color:#2e2f42;
+}
 body {
   font-family: "roboto" sans-serif;
-  color:#2e2f42;
+  color: #434455;
   background-color:#FFF; ;
 }
 
@@ -19,6 +22,7 @@ body {
 .header-nav {
 }
 .header-logo-link {
+  color: var(--accent-color);
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
@@ -64,7 +68,6 @@ body {
   color: #404bbf;
 }
 .linc {
-  color: #434455;
   font-size: 16px;
   font-family: Roboto;
   line-height: 1,5;
@@ -127,7 +130,6 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 }
 .qbrd {
-  color:  #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
@@ -138,6 +140,7 @@ letter-spacing: 0.32px;
 .sec-es-wd {
 }
 .sec-es-title {
+  color: var(--accent-color);
 font-size: 36px;
 font-family: Roboto;
 font-weight: 700;
@@ -159,6 +162,7 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 }
 .sec-ot-text {
+  color: var(--accent-color);
 font-size: 36px;
 font-family: Roboto;
 font-weight: 700;
@@ -170,7 +174,6 @@ letter-spacing: 0.72px;
 .mfmd {
 }
 .mfmd-txt {
-  color: #434455;
 font-size: 16px;
 font-family: Roboto;
 line-height: 24px;
@@ -304,7 +307,6 @@ line-height: 1.5;
 letter-spacing: 0.4px;
 }
 .tec {
-  color: #434455;
 font-size: 16px;
 font-family: Roboto;
 line-height: 1.5;
