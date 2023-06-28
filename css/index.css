@@ -2,7 +2,7 @@
   --accent-color:#2e2f42;
 }
 body {
-  font-family: "roboto" sans-serif;
+  font-family: "roboto" ,sans-serif;
   color: #434455;
   background-color:#FFF; ;
 }
@@ -22,33 +22,43 @@ body {
 .header-nav {
 }
 .header-logo-link {
-  color: var(--accent-color);
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  line-height: 1, 17;
-  letter-spacing: 0.54px;
-}
-.header-logo-link:hover {
-  color: #404bbf;
-}
-.header-logo-link:focus {
-  color: #404bbf;
-}
-
-.blok {
   color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
+.header-logo-link:hover {
+  color: #404bbf;
+}
+
+.header-logo-link:focus {
+  color: #404bbf;
+}
+
+.blok{
+  color: var(--accent-color);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.blok:hover {
+  color: #404bbf;
+}
+.blok:hover {
+  color: #404bbf;
+}
+
 .lict {
   font-size: 16px;
   font-family: Roboto;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header-s:hover {
@@ -70,7 +80,7 @@ body {
 .linc {
   font-size: 16px;
   font-family: Roboto;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
