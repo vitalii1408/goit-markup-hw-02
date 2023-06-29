@@ -197,12 +197,13 @@ line-height: 24px;
   background: #2E2F42;
 }
 .footer-logo {
-  color: #F4F4FD;
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
+  color: #4D5AE5;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .footer-logo:hover{
   color: #404bbf
@@ -210,7 +211,14 @@ line-height: 24px;
 .footer-logo:focus{
   color: #404bbf
 }
-.blok {
+.blok-fut {
+  color: #F4F4FD;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .footer-end {
   color: #F4F4FD;
