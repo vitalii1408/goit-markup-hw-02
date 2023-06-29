@@ -6,7 +6,9 @@ body {
   color: #434455;
   background-color:#FFF; ;
 }
-
+.footer-logo span {
+  color: #f4f4fd ;
+}
 
 .link {
   text-decoration: none;
@@ -135,6 +137,7 @@ body {
 /**section2*/
 
 .cpdt {
+  color: var(--accent-color);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
