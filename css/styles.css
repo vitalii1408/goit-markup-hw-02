@@ -1,86 +1,156 @@
 body {
-    font-family: "Roboto" sans-serif, ;
-    color: #434455 ;
-  }
-  .link {
-    text-decoration: none;
-  }
-  
-  .list {
-    list-style-type: none;
-  }
+  font-family: "Roboto",sans-serif,;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
 
-  /**--Header section--*/
+.list {
+  list-style-type: none;
+}
 
-  .header-logo-link {
-    color: #4d5ae5;
-    font-size: 18px;
-    font-family: 'Raleway';
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
-  .header-logo-link:hover {
-    color: #404bbf;
-  }
-  
-  .header-logo-link:focus {
-    color: #404bbf;
-  }
-  
-  .blok{
-    color: #2E2F42 ;
-    font-size: 18px;
-    font-family: 'Raleway';
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-  .blok:hover {
-    color: #404bbf;
-  }
-  .blok:hover {
-    color: #404bbf;
-  }
+/**--Header section--*/
 
-           /**btn*/
+.header-logo-link {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-logo-link:hover {
+  color: #404bbf;
+}
 
-           .vic-hit {
-            margin: -1px;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-          }
-          .btn {
-          }
-          .list {
-          }
-          .btn-all {
-            color: #4D5AE5;
-            font-size: 16px;
-            font-family: Roboto;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.64px;
-          }
-          .btn-all{
-            cursor: pointer;
-          }
-          .btn-all{
-            background: #F4F4FD}
-          .btn-all:hover{
-            color: #FFF;
-            background:#404BBF;
-          }
-          .btn-all:focus{
-            color: #FFF;
-            background:#404BBF;
-          }
-          .link {
-          }
-          .com {
-          }
-          .tec {
-          }         
+.header-logo-link:focus {
+  color: #404bbf;
+}
+
+.blok {
+  color: #2e2f42;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.blok:hover {
+  color: #404bbf;
+}
+.blok:hover {
+  color: #404bbf;
+}
+.header-s{
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color:#2e2f42; 
+}
+.header-s:hover {
+  color: #404bbf;
+}
+.header-s:focus {
+  color: #404bbf;
+}
+.header-p{
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color:#2e2f42; 
+}
+.header-p:hover {
+  color: #404bbf;
+}
+.header-p:focus {
+  color: #404bbf; 
+}
+.header-c{
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color:#2e2f42; 
+}
+.header-c:hover {
+  color: #404bbf;
+}
+.header-c:focus {
+  color: #404bbf;
+}
+.adress{
+  font-style: normal;
+}
+.linc-com {
+  color: #434455;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.linc-com:hover {
+  color: #404bbf;
+}
+.linc-com:focus {
+  color: #404bbf;
+}
+.linc-tel {
+  color: #434455;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.linc-tel:hover {
+  color: #404bbf;
+}
+.linc-tel:focus {
+  color: #404bbf;
+}
+
+/**btn*/
+
+.vic-hit {
+  margin: -1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.btn {
+}
+.list {
+}
+.btn-all {
+  color: #4d5ae5;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.btn-all {
+  cursor: pointer;
+}
+.btn-all {
+  background: #f4f4fd;
+}
+.btn-all:hover {
+  color: #fff;
+  background: #404bbf;
+}
+.btn-all:focus {
+  color: #fff;
+  background: #404bbf;
+}
+.link {
+}
+.com {
+}
+.tec {
+}
