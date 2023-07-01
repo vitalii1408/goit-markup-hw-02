@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif ;
+    font-family: "Roboto" sans-serif, ;
     color: #434455 ;
   }
   .link {
@@ -44,3 +44,43 @@ body {
   .blok:hover {
     color: #404bbf;
   }
+
+           /**btn*/
+
+           .vic-hit {
+            margin: -1px;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+          }
+          .btn {
+          }
+          .list {
+          }
+          .btn-all {
+            color: #4D5AE5;
+            font-size: 16px;
+            font-family: Roboto;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.64px;
+          }
+          .btn-all{
+            cursor: pointer;
+          }
+          .btn-all{
+            background: #F4F4FD}
+          .btn-all:hover{
+            color: #FFF;
+            background:#404BBF;
+          }
+          .btn-all:focus{
+            color: #FFF;
+            background:#404BBF;
+          }
+          .link {
+          }
+          .com {
+          }
+          .tec {
+          }         
