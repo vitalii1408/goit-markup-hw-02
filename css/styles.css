@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto",sans-serif,;
+  font-family: "Roboto",sans-serif;
   color: #434455;
 }
 .link {
@@ -8,6 +8,9 @@ body {
 
 .list {
   list-style-type: none;
+}
+span{
+  color: #2E2F42;
 }
 
 /**--Header section--*/
@@ -29,8 +32,8 @@ body {
   color: #404bbf;
 }
 
-.blok {
-  color: #2e2f42;
+span {
+  color: #2E2F42;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -38,54 +41,28 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.blok:hover {
+span:hover {
   color: #404bbf;
 }
-.blok:hover {
+span:focus {
   color: #404bbf;
 }
-.header-s{
+.header-spc {
+  
   font-size: 16px;
   font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  color:#2e2f42; 
+  letter-spacing: 0.32px; 
+  color:#2e2f42;
 }
-.header-s:hover {
+.header-spc:hover {
   color: #404bbf;
 }
-.header-s:focus {
+.header-spc:focus {
   color: #404bbf;
 }
-.header-p{
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color:#2e2f42; 
-}
-.header-p:hover {
-  color: #404bbf;
-}
-.header-p:focus {
-  color: #404bbf; 
-}
-.header-c{
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color:#2e2f42; 
-}
-.header-c:hover {
-  color: #404bbf;
-}
-.header-c:focus {
-  color: #404bbf;
-}
+
 .adress{
   font-style: normal;
 }
