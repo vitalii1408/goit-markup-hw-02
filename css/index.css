@@ -41,7 +41,7 @@ span {
   color: #404bbf;
 }
 
-.span {
+.logo-span {
   color: var(--accent-color);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -50,10 +50,10 @@ span {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.blok:hover {
+.logo-span:hover {
   color: #404bbf;
 }
-.blok:hover {
+.logo-span:hover {
   color: #404bbf;
 }
 
@@ -180,7 +180,7 @@ span {
   font-size: 36px;
   font-family: Roboto;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.12;
   letter-spacing: 0.72px;
   text-align: center;
   text-transform: capitalize;

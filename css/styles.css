@@ -35,7 +35,7 @@ span{
   color: #404bbf;
 }
 
-span {
+.logo-span {
   color: #2E2F42;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -44,10 +44,10 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-span:hover {
+.logo-span:hover {
   color: #404bbf;
 }
-span:focus {
+.logo-span:focus {
   color: #404bbf;
 }
 .header-spc {
