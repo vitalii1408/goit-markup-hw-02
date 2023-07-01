@@ -131,7 +131,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 }
-.all{
+.all-txt {
   color: #434455;
 font-size: 16px;
 font-family: Roboto;
@@ -144,4 +144,42 @@ letter-spacing: 0.32px;
 .com {
 }
 .tec {
+}
+
+/**footer section*/
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo:hover {
+  color: #404bbf;
+}
+
+.footer-logo:focus {
+  color: #404bbf;
+}
+span {
+  color: #f4f4fd;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-end {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
