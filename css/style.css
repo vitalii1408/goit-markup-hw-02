@@ -1,5 +1,9 @@
 :root {
   --accent-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --logo_hover-color: #404bbf;
+  --txt-color: #fff;
+  --all_txt-color: #434455;
 }
 
 body {
@@ -31,7 +35,7 @@ span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-link:hover {
@@ -48,7 +52,7 @@ span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-span:hover {
@@ -62,10 +66,9 @@ span {
 }
 .header-spc {
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .header-spc:hover {
@@ -78,17 +81,18 @@ span {
   font-style: normal;
 }
 .lict {
-  color: var(--accent-color);
+  color: #2e2f42;
   font-size: 16px;
-  font-family: Roboto;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .linc-com-tel {
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 400;
 }
 .linc-com-tel:hover {
   color: #404bbf;
@@ -105,12 +109,11 @@ span {
 /**section1*/
 
 .sec-title {
-  color: #fff;
+  color: var(--txt-color);
   font-size: 56px;
-  font-family: Roboto;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .sec-button {
@@ -139,12 +142,12 @@ span {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .qbrd {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /**section3*/
@@ -154,10 +157,9 @@ span {
 .sec-es-title {
   color: var(--accent-color);
   font-size: 36px;
-  font-family: Roboto;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -169,20 +171,19 @@ span {
 /**section4*/
 
 .sec-ot {
+  color: var(--accent-color);
   font-size: 20px;
-  font-family: Roboto;
   font-weight: 500;
-  line-height: 1.11;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   background-color: #f4f4fd;
 }
 .sec-ot-text {
   color: var(--accent-color);
   font-size: 36px;
-  font-family: Roboto;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -192,27 +193,24 @@ span {
   background-color: #ffffff;
 }
 .com {
-  color: #2e2f42;
+  color: var(--accent-color);
   font-size: 20px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .all-txt {
-  color: #434455;
+  color: var(--all-txt-color);
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .mfmd {
 }
 .mfmd-txt {
   font-size: 16px;
-  font-family: Roboto;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .sex3-img-dw {
 }
@@ -227,7 +225,7 @@ span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo:hover {
@@ -243,51 +241,25 @@ span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-span:hover {
+  color: #404bbf;
+}
+.footer-span:hover {
+  color: #404bbf;
 }
 .footer-end {
   color: #f4f4fd;
   font-size: 16px;
-  font-family: Roboto;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /**--portfolio--*/
 
 /**--Header section--*/
-
-.header-spc {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: var(--accent-color);
-}
-.header-spc:hover {
-  color: #404bbf;
-}
-.header-spc:focus {
-  color: #404bbf;
-}
-
-.adress {
-  font-style: normal;
-}
-.linc-com-tel {
-  color: #434455;
-  font-family: Roboto;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-.linc-com-tel:hover {
-  color: #404bbf;
-}
-.linc-com-tel:focus {
-  color: #404bbf;
-}
 
 /**btn*/
 
@@ -305,7 +277,7 @@ span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 .btn-all {
   cursor: pointer;
@@ -324,18 +296,16 @@ span {
 .com {
   color: var(--accent-color);
   font-size: 20px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .all-txt {
-  color: #434455;
+  color: var(--all_txt-color);
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .link {
 }
